@@ -44,7 +44,6 @@
             compileOnly 'org.projectlombok:lombok'
             compileOnly 'com.diffblue.cover:cover-annotations:1.5.0'
             developmentOnly 'org.springframework.boot:spring-boot-devtools'
-            runtimeOnly 'com.mysql:mysql-connector-j'
             annotationProcessor 'org.springframework.boot:spring-boot-configuration-processor'
             annotationProcessor 'org.projectlombok:lombok'
             testCompileOnly 'org.projectlombok:lombok'
@@ -58,6 +57,7 @@
             testAnnotationProcessor 'org.projectlombok:lombok'
             implementation 'org.springdoc:springdoc-openapi-starter-webmvc-ui:2.2.0'
             implementation 'org.springframework.boot:spring-boot-starter-mail'
+            implementation 'org.postgresql:postgresql:42.7.3'
     }
 
         tasks.named('test') {
