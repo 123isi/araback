@@ -11,7 +11,7 @@ spring:
     import: optional:file:.env[.properties]
 
   datasource:
-    url: jdbc:mysql://localhost:3307/${DB_NAME}
+    url: jdbc:postgresql://dpg-d1p83qvfte5s73c2qebg-a:5432/muldum
     driver-class-name: com.mysql.cj.jdbc.Driver
     username: ${DB_USERNAME}
     password: ${DB_PASSWORD}
