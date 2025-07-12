@@ -3,7 +3,7 @@ services:
     name: araback
     env: java
     plan: free
-    branch: main
+    branch: master
     buildCommand: "./gradlew build"
     startCommand: "java -jar build/libs/muldum-0.0.1-SNAPSHOT.jar"
     healthCheckPath: "/"
