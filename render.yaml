@@ -5,7 +5,7 @@ services:
     plan: free
     branch: master
     buildCommand: "./gradlew build"
-    startCommand: "java -jar build/libs/muldum-0.0.1-SNAPSHOT.jar"
+    startCommand: ""
     envVars:
       - key: SPRING_PROFILES_ACTIVE
         value: prod
@@ -17,3 +17,4 @@ services:
         value: bssmara2025@gmail.com
       - key: MAIL_PASSWORD
         value: "ucre jasv jwmo ndcu"
+    runtime: docker
